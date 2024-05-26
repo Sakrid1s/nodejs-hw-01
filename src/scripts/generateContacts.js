@@ -6,7 +6,6 @@ const generateContacts = async (number) => {
   try {
     const data = await fs.readFile(PATH_DB, 'utf-8');
     const contacts = JSON.parse(data);
-    console.log('Вміст файлу:', contacts);
     const newContacts = [];
     for (let i = 0; i < number; i++) {
       newContacts.push(createFakeContact());
