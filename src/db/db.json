@@ -1,1 +1,32 @@
-[{ "message": "Hello world" }]
+[
+  {
+    "name": "Sherman Brekke",
+    "phone": "1-604-873-9041",
+    "email": "Justus_Heidenreich73@gmail.com",
+    "job": "Regional Markets Liaison"
+  },
+  {
+    "name": "Kevin Grady II",
+    "phone": "897.640.5741",
+    "email": "Bethel68@yahoo.com",
+    "job": "Legacy Factors Coordinator"
+  },
+  {
+    "name": "Miss Casey Krajcik",
+    "phone": "1-297-750-2202 x5030",
+    "email": "Kristoffer.Gislason12@hotmail.com",
+    "job": "Human Integration Designer"
+  },
+  {
+    "name": "Angie Bins",
+    "phone": "1-227-358-2937",
+    "email": "Rigoberto_Lubowitz@gmail.com",
+    "job": "Forward Interactions Officer"
+  },
+  {
+    "name": "Jeanne Rowe",
+    "phone": "1-307-802-4364 x9052",
+    "email": "Evie95@yahoo.com",
+    "job": "Principal Accountability Engineer"
+  }
+]

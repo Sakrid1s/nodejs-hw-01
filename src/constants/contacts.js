@@ -1,5 +1,5 @@
-import fs from 'node:fs/promises';
+import path from 'node:path';
 
-export const PATH_DB = await fs.readFile('./src/db/db.json');
+const pathToData = path.join(process.cwd());
 
-console.log(PATH_DB.toString());
+export const PATH_DB = path.join(pathToData, 'src', 'db', 'db.json');
