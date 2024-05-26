@@ -9,7 +9,7 @@ export const thanos = async () => {
       contacts.filter(() => Math.random() >= 0.5);
     const updateContacts = removeContacts(contacts);
     await fs.writeFile(PATH_DB, JSON.stringify(updateContacts, null, 2));
-    console.log('Contacts were filtered successfully');
+    console.log('Contacts were filtered successfully with 50% probability');
   } catch (error) {
     console.error(`Something went wrong:`, error);
   }
