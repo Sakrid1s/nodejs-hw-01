@@ -9,7 +9,7 @@ export const addOneContact = async () => {
     const addContact = createFakeContact();
     contacts.push(addContact);
     await fs.writeFile(PATH_DB, JSON.stringify(contacts, null, 2));
-    console.log(`New contact was added`);
+    console.log(`New contact was added successfully`);
   } catch (error) {
     console.error(`Something went wrong:`, error);
   }
